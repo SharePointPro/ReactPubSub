@@ -1,6 +1,8 @@
 # ReactPubSub
 This is my take on the Publish-Subscribe Model in React.
 
+Live demo: https://ecstatic-poincare-17f119.netlify.com
+
 With a little bit of help from some cool members in the Coding Blocks (https://www.codingblocks.net/) Slack community, I was able to create a pub-sub model which can be used to trigger events in any component, from any component.
 
 The basic application uses React Hooks "UseContext" to host a event store. A component which holds an array of inputs subscribes to the event, and when published sets the focus on the selected input.
