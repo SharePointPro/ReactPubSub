@@ -1,0 +1,16 @@
+.rightContainer {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:240px;
+    background-color:rgba(0,0,0,.5);
+}
+.rightContainer div{
+    height:30px;
+}
+.rightContainer button {
+    width: 150px;
+}
