@@ -6,6 +6,7 @@ With a little bit of help from some cool members in the Coding Blocks (https://w
 The basic application uses React Hooks "UseContext" to host a event store. A component which holds an array of inputs subscribes to the event, and when published sets the focus on the selected input.
 
 Usage:
+    
     //subscribe to an event
      const globalContext = useContext(GlobalContext);
      globalContext.events.subscribe("setFocus", (e) => doAction(e));
