@@ -15,4 +15,4 @@ Usage:
     const globalContext = useContext(GlobalContext);
     globalContext.events.publish("setFocus", args)
   
-Another member from the coding blocks community created another approach, check it out here: https://stackblitz.com/edit/react-focus-via-store?file=Form.js 
+Another member from the coding blocks community created a different approach, check it out here: https://stackblitz.com/edit/react-focus-via-store?file=Form.js 
